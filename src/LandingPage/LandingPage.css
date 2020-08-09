@@ -5,7 +5,7 @@
   background-color: #65b41a;
   display: flex;
   flex-direction: column;
-  z-index: 2;
+  z-index: 3;
   position: absolute;
   overflow: hidden;
 }

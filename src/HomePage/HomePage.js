@@ -14,7 +14,7 @@ class HomePage extends Component {
 
   render() {
     return (
-      <section className="homePage">
+      <section className="homePage" id="section1">
         <main className="mainContainer">
           <div className="mainBox aboutBox" onClick={this.handleAbout}>
             <h2 className="title">Who I am & What I Do</h2>

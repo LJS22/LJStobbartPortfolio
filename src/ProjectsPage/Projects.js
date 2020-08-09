@@ -60,7 +60,7 @@ class Projects extends Component {
   };
   render() {
     return (
-      <section className="projectPage">
+      <section className="projectPage" id="section3">
         <div>
           <h2 className="projectTitle">My Top Projects</h2>
         </div>
