@@ -1,0 +1,52 @@
+.mainButton {
+  width: 140px;
+  height: 260px;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 60px;
+  margin-left: 1200px;
+  cursor: pointer;
+}
+
+.scrolled {
+  position: fixed;
+}
+
+.upButton,
+.downButton {
+  width: 100%;
+  height: 50%;
+  background-size: 70% 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 1s ease-in-out;
+  margin: 0;
+  border-radius: 50%;
+}
+
+.upButton:hover,
+.downButton:hover {
+  background-color: #65b41a;
+  transition: 1s ease-in-out;
+}
+
+.upButton {
+  background-image: url("../Images/Arrow.png");
+  transform: rotate(-90deg);
+}
+
+.downButton {
+  background-image: url("../Images/Arrow.png");
+  transform: rotate(90deg);
+}
+
+.upButton::before {
+  transform: rotate(90deg);
+}
+
+.downButton::before {
+  transform: rotate(-90deg);
+}
