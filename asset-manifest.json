@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/LJStobbartPortfolio/static/css/main.fb93f6aa.chunk.css",
+    "main.js": "/LJStobbartPortfolio/static/js/main.42441604.chunk.js",
+    "main.js.map": "/LJStobbartPortfolio/static/js/main.42441604.chunk.js.map",
+    "runtime-main.js": "/LJStobbartPortfolio/static/js/runtime-main.ac966051.js",
+    "runtime-main.js.map": "/LJStobbartPortfolio/static/js/runtime-main.ac966051.js.map",
+    "static/js/2.69d51dd8.chunk.js": "/LJStobbartPortfolio/static/js/2.69d51dd8.chunk.js",
+    "static/js/2.69d51dd8.chunk.js.map": "/LJStobbartPortfolio/static/js/2.69d51dd8.chunk.js.map",
+    "index.html": "/LJStobbartPortfolio/index.html",
+    "precache-manifest.cfaf7d3b7a70ecfe025fc27a3043f93a.js": "/LJStobbartPortfolio/precache-manifest.cfaf7d3b7a70ecfe025fc27a3043f93a.js",
+    "service-worker.js": "/LJStobbartPortfolio/service-worker.js",
+    "static/css/main.fb93f6aa.chunk.css.map": "/LJStobbartPortfolio/static/css/main.fb93f6aa.chunk.css.map",
+    "static/js/2.69d51dd8.chunk.js.LICENSE.txt": "/LJStobbartPortfolio/static/js/2.69d51dd8.chunk.js.LICENSE.txt",
+    "static/media/PageButton.css": "/LJStobbartPortfolio/static/media/Arrow.a0e35932.png",
+    "static/media/Projects.css": "/LJStobbartPortfolio/static/media/ToDo.080d0fda.png",
+    "static/media/HomePage.css": "/LJStobbartPortfolio/static/media/ProjectsIcon.2a8b77d3.jpg",
+    "static/media/Contact.css": "/LJStobbartPortfolio/static/media/Github.3e54ed15.png",
+    "static/media/About.css": "/LJStobbartPortfolio/static/media/html.0ea316db.png",
+    "static/media/LandingPage.css": "/LJStobbartPortfolio/static/media/MeNoBG.cf84af19.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ac966051.js",
+    "static/js/2.69d51dd8.chunk.js",
+    "static/css/main.fb93f6aa.chunk.css",
+    "static/js/main.42441604.chunk.js"
+  ]
+}
