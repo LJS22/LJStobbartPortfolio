@@ -70,7 +70,11 @@ class Projects extends Component {
             onMouseOver={this.handlebmiMouseOver}
             onMouseOut={this.handlebmiMouseOut}
           >
-            <a target="_blank" href="ljs22.github.io/bmi-calculator/">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.w3schools.com/tags/tag_a.asp"
+            >
               <span className="linkSpan"></span>
             </a>
             {this.state.bmi ? (
@@ -84,7 +88,11 @@ class Projects extends Component {
             onMouseOver={this.handlecalcMouseOver}
             onMouseOut={this.handlecalcMouseOut}
           >
-            <a target="_blank" href="ljs22.github.io/calculator-app/">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="ljs22.github.io/calculator-app/"
+            >
               <span className="linkSpan"></span>
             </a>
             {this.state.calc ? (
@@ -96,7 +104,11 @@ class Projects extends Component {
             onMouseOver={this.handlediceMouseOver}
             onMouseOut={this.handlediceMouseOut}
           >
-            <a target="_blank" href="ljs22.github.io/dice-game-multi/">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="ljs22.github.io/dice-game-multi/"
+            >
               <span className="linkSpan"></span>
             </a>
             {this.state.dice ? (
@@ -110,7 +122,11 @@ class Projects extends Component {
             onMouseOver={this.handledrumMouseOver}
             onMouseOut={this.handledrumMouseOut}
           >
-            <a target="_blank" href="ljs22.github.io/drumkit/">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="ljs22.github.io/drumkit/"
+            >
               <span className="linkSpan"></span>
             </a>
             {this.state.drum ? (
@@ -122,7 +138,11 @@ class Projects extends Component {
             onMouseOver={this.handletodoMouseOver}
             onMouseOut={this.handletodoMouseOut}
           >
-            <a target="_blank" href="ljs22.github.io/to-do-list-app/">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="ljs22.github.io/to-do-list-app/"
+            >
               <span className="linkSpan"></span>
             </a>
             {this.state.todo ? (
@@ -134,7 +154,11 @@ class Projects extends Component {
             onMouseOver={this.handlesurmanMouseOver}
             onMouseOut={this.handlesurmanMouseOut}
           >
-            <a target="_blank" href="ljs22.github.io/surman/">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="ljs22.github.io/surman/"
+            >
               <span className="linkSpan"></span>
             </a>
             {this.state.surman ? (

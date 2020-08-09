@@ -11,7 +11,10 @@ class Contact extends Component {
         <main className="mainContact">
           <div className="contactDivs">
             <div className="contactIcon email"></div>
-            <p>Email: lstobbart35@gmail.com</p>
+            <p>
+              Email:{" "}
+              <a href="mailto:lstobbart35@gmail.com">lstobbart35@gmail.com</a>
+            </p>
           </div>
           <div className="contactDivs">
             <div className="contactIcon linkedin"></div>
