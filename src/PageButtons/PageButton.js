@@ -17,11 +17,11 @@ class PageButton extends Component {
     });
   }
   handleUp = () => {
-    window.scrollBy({ top: -620, behavior: "smooth" });
+    window.scrollBy({ top: -613.5, behavior: "smooth" });
   };
 
   handleDown = () => {
-    window.scrollBy({ top: 620, behavior: "smooth" });
+    window.scrollBy({ top: 613.5, behavior: "smooth" });
   };
 
   render() {

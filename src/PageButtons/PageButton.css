@@ -17,19 +17,20 @@
 
 .upButton,
 .downButton {
-  width: 100%;
-  height: 50%;
-  background-size: 70% 70%;
+  width: 75%;
+  height: 37.5%;
+  background-size: 95% 95%;
   background-repeat: no-repeat;
   background-position: center;
   transition: 1s ease-in-out;
   margin: 0;
-  border-radius: 50%;
+  margin-bottom: 40px;
+  border-radius: 60%;
 }
 
 .upButton:hover,
 .downButton:hover {
-  background-color: #65b41a;
+  background-color: #8ec9bb;
   transition: 1s ease-in-out;
 }
 

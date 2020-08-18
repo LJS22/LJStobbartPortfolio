@@ -73,7 +73,7 @@ class Projects extends Component {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.w3schools.com/tags/tag_a.asp"
+              href="https://ljs22.github.io/BMI-Calculator/"
             >
               <span className="linkSpan"></span>
             </a>
@@ -107,7 +107,7 @@ class Projects extends Component {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="ljs22.github.io/dice-game-multi/"
+              href="https://ljs22.github.io/DICE-GAME-MULTI/"
             >
               <span className="linkSpan"></span>
             </a>
@@ -125,7 +125,7 @@ class Projects extends Component {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="ljs22.github.io/drumkit/"
+              href="https://ljs22.github.io/DRUMKIT/"
             >
               <span className="linkSpan"></span>
             </a>
@@ -141,12 +141,12 @@ class Projects extends Component {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="ljs22.github.io/to-do-list-app/"
+              href="https://ljs22.github.io/To-Do-List-App/"
             >
               <span className="linkSpan"></span>
             </a>
             {this.state.todo ? (
-              <p>Here I designed a To Do List Applicatio using React</p>
+              <p>Here I designed a To Do List Application using React</p>
             ) : null}
           </div>
           <div
@@ -157,7 +157,7 @@ class Projects extends Component {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="ljs22.github.io/surman/"
+              href="https://ljs22.github.io/Surman/"
             >
               <span className="linkSpan"></span>
             </a>
