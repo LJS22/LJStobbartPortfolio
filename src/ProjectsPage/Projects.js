@@ -91,7 +91,7 @@ class Projects extends Component {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="ljs22.github.io/calculator-app/"
+              href="https://ljs22.github.io/Calculator-App/"
             >
               <span className="linkSpan"></span>
             </a>
