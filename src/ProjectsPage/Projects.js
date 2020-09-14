@@ -11,6 +11,19 @@ class Projects extends Component {
     surman: false,
   };
 
+  componentDidMount() {
+    if (window.screen.width < 2000) {
+      this.setState({
+        bmi: true,
+        calc: true,
+        dice: true,
+        drum: true,
+        todo: true,
+        surman: true,
+      });
+    }
+  }
+
   handlebmiMouseOut = () => {
     this.setState({ bmi: false });
   };

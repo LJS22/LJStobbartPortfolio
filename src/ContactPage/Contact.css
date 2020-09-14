@@ -84,3 +84,30 @@ a:active {
     transform: rotate(0deg);
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .contacts {
+    height: 100vh;
+  }
+  .contactTitle {
+    height: 10%;
+    margin-bottom: 25px;
+  }
+  #contactTitle {
+    font-size: 24px;
+    text-align: center;
+  }
+  .mainContact {
+    height: 90%;
+  }
+  .contactIcon {
+    height: 50%;
+    margin-top: 40px;
+  }
+  .contactDivs p {
+    font-size: 20px;
+  }
+  .github {
+    background-size: 90% 90%;
+  }
+}

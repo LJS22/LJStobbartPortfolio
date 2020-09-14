@@ -98,3 +98,55 @@
     transform: rotate(0deg);
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .projectPage {
+    height: 100vh;
+  }
+  .projectTitle {
+    font-size: 24px;
+    text-align: center;
+  }
+  .projectBox {
+    width: 40%;
+    height: 30%;
+    border-radius: 0%;
+  }
+
+  .bmiBox,
+  .calcBox,
+  .diceBox,
+  .drumBox,
+  .todoBox,
+  .surmanBox {
+    background-position: right bottom;
+  }
+
+  .bmiBox {
+    background-size: 45% 60%;
+  }
+
+  .calcBox {
+    background-size: 35% 60%;
+  }
+
+  .diceBox {
+    background-size: 40% 70%;
+  }
+
+  .drumBox {
+    background-size: 47.5% 65%;
+  }
+
+  .todoBox {
+    background-size: 40% 60%;
+  }
+
+  .surmanBox {
+    background-size: 80% 40%;
+  }
+  .projectBox p {
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+}

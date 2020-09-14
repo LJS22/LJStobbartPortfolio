@@ -63,3 +63,27 @@
 .title {
   font-size: 24px;
 }
+
+@media only screen and (max-width: 768px) {
+  .homePage {
+    height: 100vh;
+  }
+
+  .bottomBoxes {
+    flex-direction: column;
+    height: 66.5%;
+  }
+  .aboutBox,
+  .contactsBox,
+  .projectsBox {
+    opacity: 1;
+    width: 100%;
+  }
+  .aboutBox {
+    height: 33.3%;
+  }
+  .contactsBox,
+  .projectsBox {
+    height: 50%;
+  }
+}

@@ -140,3 +140,32 @@ li {
     transform: rotate(360deg);
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .aboutPage {
+    height: 100vh;
+  }
+  .aboutTitle {
+    display: none;
+  }
+  .lists {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .personalList,
+  .workList {
+    height: 50%;
+    width: 100%;
+  }
+  .personalList {
+    font-size: 15px;
+  }
+  .workList {
+    position: static;
+    margin: 30px;
+  }
+  .toolBoxTitle {
+    display: none;
+  }
+}

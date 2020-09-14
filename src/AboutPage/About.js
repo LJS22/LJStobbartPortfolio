@@ -2,6 +2,16 @@ import React, { Component } from "react";
 import "./About.css";
 
 class About extends Component {
+  state = {
+    screenSize: false,
+  };
+
+  componentDidMount() {
+    if (window.screen.width < 768) {
+      this.setState({ screenSize: true });
+    }
+  }
+
   render() {
     return (
       <section className="aboutPage" id="section2">
@@ -11,18 +21,21 @@ class About extends Component {
         <main className="lists">
           <div className="personalList">
             <ul>
-              <li>I was born, raised and educated in Newcastle</li>
               <li>
-                I attended Newcastle University and studied Psychology before
+                I was born and raised in Newcastle, live and work in Manchester
+              </li>
+              <li>
+                I attended Newcastle University, studying Psychology before
                 becoming a software developer
               </li>
+              {this.state.screenSize ? (
+                <li>
+                  I began teaching myself how to code until I joined Code Nation
+                </li>
+              ) : null}
               <li>
-                I began teaching myself basic programming until I joined Code
-                Nation
-              </li>
-              <li>
-                I attended Code Nations Master Course and am eager to find my
-                first role
+                I attended Code Nations 12 week Master Course and am eager to
+                find my first role
               </li>
               <li>
                 I'm passionate mainly about React, I love designing anything
