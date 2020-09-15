@@ -12,7 +12,7 @@ class Projects extends Component {
   };
 
   componentDidMount() {
-    if (window.screen.width < 2000) {
+    if (window.screen.width < 768) {
       this.setState({
         bmi: true,
         calc: true,
